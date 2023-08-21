@@ -5,7 +5,7 @@ import FoodDisplay from "./components/FoodDisplay";
 
 function App() {
   //api fetch
-  //const [food, setFood] = useState(null);
+  const [foodList, setFood] = useState([]);
   //const [search, setSearch] = useState('');
 
   const getFood = async () => {
@@ -21,7 +21,7 @@ function App() {
     try {
       const response = await fetch(url, options);
       const result = await response.json();
-     //setFood(result.results)
+     setFood(result.results)
      console.log(result.results)
     } catch (error) {
       console.error(error);
@@ -37,6 +37,9 @@ function App() {
   return (
     <div className="App">
       <>
+      {foodList.map((food) => (
+        <FoodDisplay key={food.id} foodTitle={food.title} />
+      ))}
       </>
     </div>
   );

@@ -1,9 +1,14 @@
 import React from 'react'
 
-function FoodDisplay() {
+function FoodDisplay({foodTitle}) {
   return (
-    <div>FoodDisplay</div>
-  )
+    
+      <div>
+        <h2>{foodTitle}</h2>
+      </div>
+    
+    
+  );
 }
 
 export default FoodDisplay
