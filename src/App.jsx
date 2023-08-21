@@ -33,12 +33,20 @@ function App() {
   },[])
 
 
-  //components and content
+  //title,pic, and nutrition facts in foodDisplay
   return (
     <div className="App">
       <>
       {foodList.map((food) => (
-        <FoodDisplay key={food.id} foodTitle={food.title} />
+        <FoodDisplay 
+        key={food.id} 
+        foodTitle={food.title} 
+        foodImage={food.image}
+        foodCalories={food.nutrition.nutrients[26].amount}
+        // foodProtein={food.nutrition.nutrients.protein}
+        // foodCarbs={food.nutrition.carbs}
+        // foodFat={food.nutrition.Fat}
+        />
       ))}
       </>
     </div>
