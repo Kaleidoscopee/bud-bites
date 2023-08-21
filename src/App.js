@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import HelloWorld from "./components/HelloWorld";
+import Form from "./components/Form";
+import FoodDisplay from "./components/FoodDisplay";
 
 
 function App() {
@@ -48,7 +49,8 @@ function App() {
   //components and content
   return (
     <div className="App">
-      <HelloWorld />
+      <>
+      </>
     </div>
   );
 }
