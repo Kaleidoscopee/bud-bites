@@ -4,7 +4,7 @@ function FoodDisplay({foodTitle,foodImage,foodCalories,foodProtein,foodCarbs,foo
                           //basically all the attributes or props from App.js elements
   return (
     <>
-
+      
       <div>
         <h2>{foodTitle}</h2>                       {/* foods title */}
         <img src={foodImage} alt={foodImage}/>     {/* foods image */}

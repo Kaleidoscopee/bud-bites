@@ -39,6 +39,7 @@ function App() {
   return (
     <div className="App">
       <>
+      <h1 id="Logo">Bite Buddy</h1>
       <Form onFoodSearch={setFoodSearch}/>
           {foodList.map((food) => (
       <FoodDisplay 
