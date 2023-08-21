@@ -33,19 +33,6 @@ function App() {
   },[])
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   //components and content
   return (
     <div className="App">
