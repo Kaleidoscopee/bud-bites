@@ -1,8 +1,17 @@
+# Bite Buddy
+Bite Buddy is a calorie seaching app powered by the spoonacular Recipe-Food-Nutrition API
+Link - (https://rapidapi.com/spoonacular/api/recipe-food-nutrition)
+
+You can simply type in the search bar and hit enter to find multiple variations of the food you searched for and it's calorie count! (may not be accurate due to API data 0.0)
+
+
 # Progress
-Was having trouble with errors on the original Repository and cou;dn't find the problem with Ms. Iya so was approved to continue here. Using it as a chance to clean up the code from the original repository of buddy-bites. (https://github.com/Kaleidoscopee/buddy-bites)
+Was having trouble with errors on the original Repository and couldn't find the problem with Ms. Iya so was approved to continue here. Using it as a chance to clean up the code from the original repository of buddy-bites. (https://github.com/Kaleidoscopee/buddy-bites)
 
-
-
+App is now completed, but can use more CSS to make it look nice.
+Short term goal- I'd like to incorporate the Macro Nutrients(Protein,Carbs,Fats)
+Mid Term goal- I'd like for the nutrients to be under calories in a carrot > like button to show hidden information of the macros like a dropdown menu
+Long Term - A sliding or carasoul of the 9 options to go from left to right infinitely rotating upon click ex. < current recipe here >
 
 
 
