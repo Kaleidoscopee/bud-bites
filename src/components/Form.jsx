@@ -1,9 +1,20 @@
 import React, {useState} from 'react'
 
 function Form({onFoodSearch}) {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState(''); 
 
-  const handleSubmit = (e) => {
+
+  
+  const handleChange = (e) => { //this updates state the input 
+    console.log(e.target.value)
+    setSearchTerm (e.target.value); //updates to what you write
+    
+}
+
+
+
+
+  const handleSubmit = (e) => {    
     e.preventDefault();
     onFoodSearch(searchTerm);
 }
@@ -13,10 +24,16 @@ function Form({onFoodSearch}) {
   return (
     <>
       <div>
-        <form on Submit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
         {/* <input type="text" name="city" placeholder="city" onChange={handleChange}/> //using the weather app as a refrence point here */}
-        <input type="text" value={searchTerm} onSubmit={handleSubmit}/>
-        <input type="submit" value="Search" />
+        <input type="text" 
+        value={searchTerm} 
+        onChange={handleChange}
+        />
+
+        <input type="submit" 
+        value="Search" 
+        />
         </form>
       </div>
     </>
