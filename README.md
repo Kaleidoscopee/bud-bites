@@ -1,5 +1,6 @@
 # Bite Buddy
 Bite Buddy is a calorie seaching app powered by the spoonacular Recipe-Food-Nutrition API
+Live Netlify Link - (https://main--bite-buddy-app.netlify.app/)
 Link - (https://rapidapi.com/spoonacular/api/recipe-food-nutrition)
 
 You can simply type in the search bar and hit enter to find multiple variations of the food you searched for and it's calorie count! (may not be accurate due to API data 0.0)
