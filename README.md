@@ -5,6 +5,7 @@ Link - (https://rapidapi.com/spoonacular/api/recipe-food-nutrition)
 You can simply type in the search bar and hit enter to find multiple variations of the food you searched for and it's calorie count! (may not be accurate due to API data 0.0)
 
 
+
 # Progress
 Was having trouble with errors on the original Repository and couldn't find the problem with Ms. Iya so was approved to continue here. Using it as a chance to clean up the code from the original repository of buddy-bites. (https://github.com/Kaleidoscopee/buddy-bites)
 
