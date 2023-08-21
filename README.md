@@ -1,3 +1,11 @@
+# Progress
+Was having trouble with errors on the original Repository and cou;dn't find the problem with Ms. Iya so was approved to continue here. Using it as a chance to clean up the code from the original repository of buddy-bites. (https://github.com/Kaleidoscopee/buddy-bites)
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
